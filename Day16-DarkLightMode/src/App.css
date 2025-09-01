@@ -1,0 +1,33 @@
+h1 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app {
+  padding-top: 50px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app.light {
+  background-color: rgb(238, 238, 238);
+  color: black;
+}
+
+.app.dark {
+  background-color: #101010;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
